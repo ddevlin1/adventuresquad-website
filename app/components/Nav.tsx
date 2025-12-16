@@ -11,7 +11,7 @@ export default function Nav() {
                     <NavLink to="/" end>Home</NavLink>
                     <NavLink to="/story">Story</NavLink>
                     <NavLink to="/music">Music</NavLink>
-                    <NavLink to="/characters">Characters</NavLink>
+                    <NavLink to="/squad-profiles">Squad Profiles</NavLink>
                     <NavLink to="/create-story">Create</NavLink>
                 </div>
             </div>

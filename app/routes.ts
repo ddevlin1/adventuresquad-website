@@ -4,6 +4,6 @@ export default [
     index("routes/home.tsx"),
     route("story", "routes/story.tsx"),
     route("music", "routes/music.tsx"),
-    route("characters", "routes/characters.tsx"),
+    route("squad-profiles", "routes/squad-profiles.tsx"),
     route("create-story", "routes/create-story.tsx")
 ] satisfies RouteConfig;

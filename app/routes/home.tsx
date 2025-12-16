@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="container">
                     <h1>Adventure Squad HQ Online ⚡</h1>
                     <p style={{ fontSize: "1.2rem", marginBottom: "2rem", color: "#ccc", maxWidth: "600px", margin: "0 auto", paddingBottom: "2rem" }}>
-                        Initiating protocol... solving mysteries across the cyber-neighborhood.
+                        Initiating protocol... solving mysteries across the neighborhood.
                     </p>
 
                     <AudioPlayer />
@@ -39,8 +39,8 @@ export default function Home() {
                         <h3>🎵 Sonic Data</h3>
                         <p>Stream the official squad frequency.</p>
                     </Link>
-                    <Link to="/characters" className="card">
-                        <h3>🦸 Operatives</h3>
+                    <Link to="/squad-profiles" className="card">
+                        <h3>🦸 Squad Profiles</h3>
                         <p>Access profiles and special ability stats.</p>
                     </Link>
                     <Link to="/create-story" className="card">
