@@ -14,7 +14,7 @@ export default function Home() {
         <div className="home">
             <section className="hero">
                 <div className="container">
-                    <h1>Adventure Squad HQ Online ⚡</h1>
+                    <h1>Adventure Squad HQ ⚡</h1>
                     <p style={{ fontSize: "1.2rem", marginBottom: "2rem", color: "#ccc", maxWidth: "600px", margin: "0 auto", paddingBottom: "2rem" }}>
                         Initiating protocol... solving mysteries across the neighborhood.
                     </p>
@@ -42,6 +42,10 @@ export default function Home() {
                     <Link to="/squad-profiles" className="card">
                         <h3>🦸 Squad Profiles</h3>
                         <p>Access profiles and special ability stats.</p>
+                    </Link>
+                    <Link to="/game" className="card">
+                        <h3>🎮 Neon Runner</h3>
+                        <p>Test your reflexes in this high-speed chase!</p>
                     </Link>
                     <Link to="/create-story" className="card">
                         <h3>✍️ New Protocol</h3>
